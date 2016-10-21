@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--外島-->
+    <string name="county_penghu">澎湖縣</string>
+    <string name="county_kinmen">金門縣</string>
+    <string name="county_matsu">馬祖列島</string>
+
+    <!--北-->
+    <string name="county_keelung">基隆市</string>
+    <string name="county_new_taipei">新北市</string>
+    <string name="county_taipei">台北市</string>
+    <string name="county_taoyuan">桃園市</string>
+    <string name="county_hsinchu">新竹縣</string>
+    <string name="county_hsinchu_city">新竹市</string>
+    <string name="county_miaoli">苗栗</string>
+
+    <!--中-->
+    <string name="county_taichung">台中縣</string>
+    <string name="county_taichung_city">台中市</string>
+    <string name="county_changhua">彰化縣</string>
+    <string name="county_nantou">南投縣</string>
+    <string name="county_yunlin">雲林縣</string>
+    <string name="county_chiayi">嘉義縣</string>
+    <string name="county_chiayi_city">嘉義市</string>
+
+    <!--南-->
+    <string name="county_tainan">台南縣</string>
+    <string name="county_tainan_city">台南市</string>
+    <string name="county_kaohsiung">高雄縣</string>
+    <string name="county_kaohsiung_city">高雄市</string>
+    <string name="county_pingtung">屏東縣</string>
+
+    <!--東-->
+    <string name="county_taitung">台東縣</string>
+    <string name="county_yilan">宜蘭縣</string>
+    <string name="county_hualien">花蓮縣</string>
+</resources>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Lib</string>
+
+    <!--外島-->
+    <string name="county_penghu">Penghu</string>
+    <string name="county_kinmen">Kinmen</string>
+    <string name="county_matsu">Matsu Islands</string>
+
+    <!--北-->
+    <string name="county_keelung">Keelung</string>
+    <string name="county_new_taipei">New Taipei</string>
+    <string name="county_taipei">Taipei</string>
+    <string name="county_taoyuan">Taoyuan</string>
+    <string name="county_hsinchu">Hsinchu</string>
+    <string name="county_hsinchu_city">Hsinchu City</string>
+    <string name="county_miaoli">Miaoli</string>
+
+    <!--中-->
+    <string name="county_taichung">Taichung</string>
+    <string name="county_taichung_city">Taichung City</string>
+    <string name="county_changhua">Changhua</string>
+    <string name="county_nantou">Nantou</string>
+    <string name="county_yunlin">Yunlin</string>
+    <string name="county_chiayi">Chiayi</string>
+    <string name="county_chiayi_city">Chiayi City</string>
+
+    <!--南-->
+    <string name="county_tainan">Tainan</string>
+    <string name="county_tainan_city">Tainan City</string>
+    <string name="county_kaohsiung">Kaohsiung</string>
+    <string name="county_kaohsiung_city">Kaohsiung City</string>
+    <string name="county_pingtung">Pingtung</string>
+
+    <!--東-->
+    <string name="county_taitung">Taitung</string>
+    <string name="county_yilan">Yilan</string>
+    <string name="county_hualien">Hualien</string>
+
+</resources>
