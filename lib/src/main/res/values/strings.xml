@@ -16,7 +16,6 @@
     <string name="county_miaoli">Miaoli</string>
 
     <!--中-->
-    <string name="county_taichung">Taichung</string>
     <string name="county_taichung_city">Taichung City</string>
     <string name="county_changhua">Changhua</string>
     <string name="county_nantou">Nantou</string>
@@ -25,9 +24,7 @@
     <string name="county_chiayi_city">Chiayi City</string>
 
     <!--南-->
-    <string name="county_tainan">Tainan</string>
     <string name="county_tainan_city">Tainan City</string>
-    <string name="county_kaohsiung">Kaohsiung</string>
     <string name="county_kaohsiung_city">Kaohsiung City</string>
     <string name="county_pingtung">Pingtung</string>
 

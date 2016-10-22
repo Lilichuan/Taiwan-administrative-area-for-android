@@ -16,7 +16,6 @@
     <string name="county_miaoli">苗栗</string>
 
     <!--中-->
-    <string name="county_taichung">台中縣</string>
     <string name="county_taichung_city">台中市</string>
     <string name="county_changhua">彰化縣</string>
     <string name="county_nantou">南投縣</string>
@@ -25,9 +24,7 @@
     <string name="county_chiayi_city">嘉義市</string>
 
     <!--南-->
-    <string name="county_tainan">台南縣</string>
     <string name="county_tainan_city">台南市</string>
-    <string name="county_kaohsiung">高雄縣</string>
     <string name="county_kaohsiung_city">高雄市</string>
     <string name="county_pingtung">屏東縣</string>
 

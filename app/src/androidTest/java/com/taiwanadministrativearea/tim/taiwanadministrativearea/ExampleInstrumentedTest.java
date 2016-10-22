@@ -1,4 +1,4 @@
-package com.taiwanadministrativearea.tim.taiwanadministrativearea;
+package com.taiwanadministrativearea.tim.taiwanadministrativearea.test;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
