@@ -2,6 +2,8 @@ package com.taiwanadministrativearea.tim.lib.Area;
 
 import android.content.Context;
 
+import com.taiwanadministrativearea.tim.lib.R;
+
 /**
  * Created by tim on 2016/10/23.
  */
@@ -43,10 +45,82 @@ public class AreaFactory {
         c = context;
     }
 
-    private County buildCounty(int id, int nameStrId){
+
+    private County createCounty(int id){
+
+        int strID;
+
+        switch (id){
+            case COUNTY_PengHu:
+                strID = R.string.county_penghu;
+                break;
+            case COUNTY_KinMen:
+                strID = R.string.county_kinmen;
+                break;
+            case COUNTY_Matsu_Islands:
+                strID = R.string.county_matsu;
+                break;
+            case COUNTY_Keelung:
+                strID = R.string.county_keelung;
+                break;
+            case COUNTY_New_Taipei:
+                strID = R.string.county_new_taipei ;
+                break;
+            case COUNTY_TaoYuan:
+                strID = R.string.county_taoyuan ;
+                break;
+            case COUNTY_Hsinchu:
+                strID = R.string.county_hsinchu ;
+                break;
+            case COUNTY_Hsinchu_City:
+                strID = R.string.county_hsinchu_city ;
+                break;
+            case COUNTY_Miaoli:
+                strID = R.string.county_miaoli ;
+                break;
+            case COUNTY_Taichung_City:
+                strID = R.string.county_taichung_city ;
+                break;
+            case COUNTY_Changhua:
+                strID = R.string.county_changhua ;
+                break;
+            case COUNTY_Nantou:
+                strID = R.string.county_nantou ;
+                break;
+            case COUNTY_Yunlin:
+                strID = R.string.county_yunlin ;
+                break;
+            case COUNTY_Chiayi:
+                strID = R.string.county_chiayi ;
+                break;
+            case COUNTY_Chiayi_City:
+                strID = R.string.county_chiayi_city ;
+                break;
+            case COUNTY_Tainan_City:
+                strID = R.string.county_tainan_city ;
+                break;
+            case COUNTY_Kaohsiung_City:
+                strID = R.string.county_kaohsiung_city ;
+                break;
+            case COUNTY_Pingtung:
+                strID = R.string.county_pingtung ;
+                break;
+            case COUNTY_Taitung:
+                strID = R.string.county_taitung ;
+                break;
+            case COUNTY_Yilan:
+                strID = R.string.county_yilan ;
+                break;
+            case COUNTY_Hualien:
+                strID = R.string.county_hualien ;
+                break;
+            default:
+                strID = 0;
+        }
+
         County county = new County();
         county.setId(id)
-                .setName(c, nameStrId);
+                .setName(c, strID);
 
         return county;
     }
