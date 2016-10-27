@@ -1,8 +1,9 @@
-package com.taiwanadministrativearea.tim.lib.Area;
+package com.taiwanadministrativearea.tim.lib;
 
 import android.content.Context;
 
-import com.taiwanadministrativearea.tim.lib.R;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by tim on 2016/10/23.
@@ -11,13 +12,6 @@ import com.taiwanadministrativearea.tim.lib.R;
 public class AreaFactory {
 
     private Context c;
-
-    public static final int AREA_GROUP_NORTH = 1;
-    public static final int AREA_GROUP_SOUTH = 2;
-    public static final int AREA_GROUP_EAST = 3;
-    public static final int AREA_GROUP_WEST = 4;
-    public static final int AREA_GROUP_CENTRAL = 5;
-    public static final int AREA_GROUP_ISLANDS = 6;
 
     public static final int COUNTY_PengHu = 10016;
     public static final int COUNTY_KinMen = 9020;
@@ -45,8 +39,88 @@ public class AreaFactory {
         c = context;
     }
 
+    /*
+    *
+    * 取得北部縣市列表
+    *
+    * */
+    public List<County> getNorthCounties(){
+        List<County> list = new ArrayList<>();
+        list.add(createCounty(COUNTY_Keelung));
+        list.add(createCounty(COUNTY_New_Taipei));
+        list.add(createCounty(COUNTY_TaoYuan));
+        list.add(createCounty(COUNTY_Hsinchu));
+        list.add(createCounty(COUNTY_Hsinchu_City));
+        list.add(createCounty(COUNTY_Miaoli));
+        return list;
+    }
 
-    private County createCounty(int id){
+    /*
+    *
+    * 取得北部縣市列表
+    *
+    * */
+    public List<County> getSouthCounties(){
+        List<County> list = new ArrayList<>();
+        list.add(createCounty(COUNTY_Tainan_City));
+        list.add(createCounty(COUNTY_Kaohsiung_City));
+        list.add(createCounty(COUNTY_Pingtung));
+        return list;
+    }
+
+    /*
+    *
+    * 取得北部縣市列表
+    *
+    * */
+    public List<County> getCentralCounties(){
+        List<County> list = new ArrayList<>();
+        list.add(createCounty(COUNTY_Taichung_City));
+        list.add(createCounty(COUNTY_Changhua));
+        list.add(createCounty(COUNTY_Nantou));
+        list.add(createCounty(COUNTY_Yunlin));
+        list.add(createCounty(COUNTY_Chiayi));
+        list.add(createCounty(COUNTY_Chiayi_City));
+        return list;
+    }
+
+    /*
+    *
+    * 取得北部縣市列表
+    *
+    * */
+    public List<County> getEastCounties(){
+        List<County> list = new ArrayList<>();
+        list.add(createCounty(COUNTY_Taitung));
+        list.add(createCounty(COUNTY_Yilan));
+        list.add(createCounty(COUNTY_Hualien));
+        return list;
+    }
+
+    /*
+    *
+    * 取得北部縣市列表
+    *
+    * */
+    public List<County> getIslandCounties(){
+        List<County> list = new ArrayList<>();
+        list.add(createCounty(COUNTY_PengHu));
+        list.add(createCounty(COUNTY_KinMen));
+        list.add(createCounty(COUNTY_Matsu_Islands));
+        return list;
+    }
+
+    public List<County> getAllCounties(){
+        List<County> list = getNorthCounties();
+        list.addAll(getCentralCounties());
+        list.addAll(getSouthCounties());
+        list.addAll(getEastCounties());
+        list.addAll(getIslandCounties());
+        return list;
+    }
+
+
+    public County createCounty(int id){
 
         int strID;
 
@@ -118,11 +192,9 @@ public class AreaFactory {
                 strID = 0;
         }
 
-        County county = new County();
-        county.setId(id)
+        return new County()
+                .setId(id)
                 .setName(c, strID);
-
-        return county;
     }
 
 

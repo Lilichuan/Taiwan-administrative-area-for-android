@@ -1,4 +1,4 @@
-package com.taiwanadministrativearea.tim.lib.Area;
+package com.taiwanadministrativearea.tim.lib;
 
 import android.content.Context;
 
