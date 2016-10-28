@@ -33,4 +33,113 @@
     <string name="county_yilan">Yilan</string>
     <string name="county_hualien">Hualien</string>
 
+    <!--澎湖-->
+    <string-array name="area_Penghu">
+        <item></item>
+    </string-array>
+
+    <!--金門-->
+    <string-array name="area_Kinmen">
+        <item></item>
+    </string-array>
+
+    <!--馬祖-->
+    <string-array name="area_Matsu">
+        <item></item>
+    </string-array>
+
+    <!--基隆-->
+    <string-array name="area_Keelung">
+        <item></item>
+    </string-array>
+
+    <!--新北-->
+    <string-array name="area_new_taipei">
+        <item></item>
+    </string-array>
+
+    <!--台北-->
+    <string-array name="area_Taipei">
+        <item></item>
+    </string-array>
+
+    <!--桃園-->
+    <string-array name="area_Taoyuan">
+        <item></item>
+    </string-array>
+
+    <!--新竹-->
+    <string-array name="area_Hsinchu">
+        <item></item>
+    </string-array>
+
+    <!--新竹市-->
+    <string-array name="area_Hsinchu_City">
+        <item></item>
+    </string-array>
+
+    <!--苗栗-->
+    <string-array name="area_Miaoli">
+        <item></item>
+    </string-array>
+
+    <!--台中市-->
+    <string-array name="area_taichung_city">
+        <item></item>
+    </string-array>
+
+    <!--彰化-->
+    <string-array name="area_changhua">
+        <item></item>
+    </string-array>
+
+    <!--南投-->
+    <string-array name="area_nantou">
+        <item></item>
+    </string-array>
+
+    <!--雲林-->
+    <string-array name="area_yunlin">
+        <item></item>
+    </string-array>
+
+    <!--嘉義-->
+    <string-array name="area_chiayi">
+        <item></item>
+    </string-array>
+
+    <!--嘉義市-->
+    <string-array name="area_chiayi_city">
+        <item></item>
+    </string-array>
+
+    <!--台南市-->
+    <string-array name="area_tainan_city">
+        <item></item>
+    </string-array>
+
+    <!--高雄市-->
+    <string-array name="area_kaohsiung_city">
+        <item></item>
+    </string-array>
+
+    <!--屏東-->
+    <string-array name="area_pingtung">
+        <item></item>
+    </string-array>
+
+    <!--台東-->
+    <string-array name="area_taitung">
+        <item></item>
+    </string-array>
+
+    <!--宜蘭-->
+    <string-array name="area_yilan">
+        <item></item>
+    </string-array>
+
+    <!--花蓮-->
+    <string-array name="area_hualien">
+        <item></item>
+    </string-array>
 </resources>

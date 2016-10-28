@@ -123,6 +123,7 @@ public class AreaFactory {
     public County createCounty(int id){
 
         int strID;
+        int arrayID;
 
         switch (id){
             case COUNTY_PengHu:
@@ -192,9 +193,7 @@ public class AreaFactory {
                 strID = 0;
         }
 
-        return new County()
-                .setId(id)
-                .setName(c, strID);
+        return new County(c,strID, id, arrayID);
     }
 
 

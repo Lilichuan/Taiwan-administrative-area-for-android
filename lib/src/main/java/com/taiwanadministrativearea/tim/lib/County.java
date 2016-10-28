@@ -3,17 +3,21 @@ package com.taiwanadministrativearea.tim.lib;
 import android.content.Context;
 
 /**
- * Created by tim on 2016/10/21.
+ * original county interface
  */
 
 public class County {
 
+    public County(Context context, int nameID, int countyID, int array){
+        setName(context, nameID);
+        setId(countyID);
+    }
+
     //顯示名稱
     private String name;
 
-    public County setName(Context context, int nameID) {
+    public void setName(Context context, int nameID) {
         name = context.getString(nameID);
-        return this;
     }
 
     public String getName() {
@@ -25,12 +29,13 @@ public class County {
     //行政區域及村里代碼
     private int id;
 
-    public County setId(int id) {
+    private void setId(int id) {
         this.id = id;
-        return this;
     }
 
     public int getId() {
         return id;
     }
+
+
 }
