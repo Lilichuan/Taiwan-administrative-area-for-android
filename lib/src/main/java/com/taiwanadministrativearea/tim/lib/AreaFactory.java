@@ -128,72 +128,94 @@ public class AreaFactory {
         switch (id){
             case COUNTY_PengHu:
                 strID = R.string.county_penghu;
+                arrayID = R.array.area_Penghu;
                 break;
             case COUNTY_KinMen:
                 strID = R.string.county_kinmen;
+                arrayID = R.array.area_Kinmen;
                 break;
             case COUNTY_Matsu_Islands:
                 strID = R.string.county_matsu;
+                arrayID = R.array.area_Matsu;
                 break;
             case COUNTY_Keelung:
                 strID = R.string.county_keelung;
+                arrayID = R.array.area_Keelung;
                 break;
             case COUNTY_New_Taipei:
                 strID = R.string.county_new_taipei ;
+                arrayID = R.array.area_new_taipei;
                 break;
             case COUNTY_TaoYuan:
                 strID = R.string.county_taoyuan ;
+                arrayID = R.array.area_Taoyuan;
                 break;
             case COUNTY_Hsinchu:
                 strID = R.string.county_hsinchu ;
+                arrayID = R.array.area_Hsinchu;
                 break;
             case COUNTY_Hsinchu_City:
                 strID = R.string.county_hsinchu_city ;
+                arrayID = R.array.area_Hsinchu_City;
                 break;
             case COUNTY_Miaoli:
                 strID = R.string.county_miaoli ;
+                arrayID = R.array.area_Miaoli;
                 break;
             case COUNTY_Taichung_City:
                 strID = R.string.county_taichung_city ;
+                arrayID = R.array.area_taichung_city;
                 break;
             case COUNTY_Changhua:
                 strID = R.string.county_changhua ;
+                arrayID = R.array.area_changhua;
                 break;
             case COUNTY_Nantou:
                 strID = R.string.county_nantou ;
+                arrayID = R.array.area_nantou;
                 break;
             case COUNTY_Yunlin:
                 strID = R.string.county_yunlin ;
+                arrayID = R.array.area_yunlin;
                 break;
             case COUNTY_Chiayi:
                 strID = R.string.county_chiayi ;
+                arrayID = R.array.area_chiayi;
                 break;
             case COUNTY_Chiayi_City:
                 strID = R.string.county_chiayi_city ;
+                arrayID = R.array.area_chiayi_city;
                 break;
             case COUNTY_Tainan_City:
                 strID = R.string.county_tainan_city ;
+                arrayID = R.array.area_tainan_city;
                 break;
             case COUNTY_Kaohsiung_City:
                 strID = R.string.county_kaohsiung_city ;
+                arrayID = R.array.area_kaohsiung_city;
                 break;
             case COUNTY_Pingtung:
                 strID = R.string.county_pingtung ;
+                arrayID = R.array.area_pingtung;
                 break;
             case COUNTY_Taitung:
                 strID = R.string.county_taitung ;
+                arrayID = R.array.area_taitung;
                 break;
             case COUNTY_Yilan:
                 strID = R.string.county_yilan ;
+                arrayID = R.array.area_yilan;
                 break;
             case COUNTY_Hualien:
                 strID = R.string.county_hualien ;
+                arrayID = R.array.area_hualien;
                 break;
             default:
                 strID = 0;
+                arrayID = 0;
         }
 
-        return new County(c,strID, id);
+        return new County(c,strID, id, arrayID);
     }
 
 

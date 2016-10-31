@@ -8,15 +8,16 @@ import android.content.Context;
 
 public class County {
 
-    public County(Context context, int nameID, int countyID){
+    public County(Context context, int nameID, int countyID, int arrayID){
         setName(context, nameID);
         setId(countyID);
+        setTownsAndCities(context, arrayID);
     }
 
     //顯示名稱
     private String name;
 
-    public void setName(Context context, int nameID) {
+    private void setName(Context context, int nameID) {
         name = context.getString(nameID);
     }
 
@@ -38,4 +39,14 @@ public class County {
     }
 
 
+
+    private String[] townsAndCities;
+
+    private void setTownsAndCities(Context context, int arrayID){
+        townsAndCities = context.getResources().getStringArray(arrayID);
+    }
+
+    public String[] getTownsAndCities() {
+        return townsAndCities;
+    }
 }
