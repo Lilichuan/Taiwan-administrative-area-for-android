@@ -193,7 +193,7 @@ public class AreaFactory {
                 strID = 0;
         }
 
-        return new County(c,strID, id, arrayID);
+        return new County(c,strID, id);
     }
 
 

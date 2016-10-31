@@ -8,7 +8,7 @@ import android.content.Context;
 
 public class County {
 
-    public County(Context context, int nameID, int countyID, int array){
+    public County(Context context, int nameID, int countyID){
         setName(context, nameID);
         setId(countyID);
     }
