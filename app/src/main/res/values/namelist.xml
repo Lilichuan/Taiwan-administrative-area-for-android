@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="taipei_city">
+        <item>Songshan District</item>
+        <item>Xinyi District</item>
+        <item>Da\’an District</item>
+        <item>Zhongshan District</item>
+        <item>Zhongzheng District</item>
+        <item>Datong District</item>
+        <item>Wanhua District</item>
+        <item>Wenshan District</item>
+        <item>Nangang District</item>
+        <item>Neihu District</item>
+        <item>Shilin District</item>
+        <item>Beitou District</item>
+    </string-array>
+
+
+    <string-array name="new_taipei_city">
+        <item>Banqiao District</item>
+        <item>Sanchong District</item>
+        <item>Zhonghe District</item>
+        <item>Yonghe District</item>
+        <item>Xinzhuang District</item>
+        <item>Xindian District</item>
+        <item>Tucheng District</item>
+        <item>Luzhou District</item>
+        <item>Xizhi District</item>
+        <item>Shulin District</item>
+        <item>Tamsui District</item>
+        <item>Yingge District</item>
+        <item>Sanxia District</item>
+        <item>Ruifang District</item>
+        <item>Wugu District</item>
+        <item>Taishan District</item>
+        <item>Linkou District</item>
+        <item>深坑區</item>
+        <item>石碇區</item>
+        <item>坪林區</item>
+        <item>三芝區</item>
+        <item>石門區</item>
+        <item>八里區</item>
+        <item>平溪區</item>
+        <item>雙溪區</item>
+        <item>貢寮區</item>
+        <item>金山區</item>
+        <item>萬里區</item>
+        <item>烏來區</item>
+    </string-array>
+
+</resources>
