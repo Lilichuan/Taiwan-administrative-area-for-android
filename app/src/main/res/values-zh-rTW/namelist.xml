@@ -15,7 +15,6 @@
         <item>北投區</item>
     </string-array>
 
-
     <string-array name="new_taipei_city">
         <item>板橋區</item>
         <item>三重區</item>
@@ -48,7 +47,92 @@
         <item>烏來區</item>
     </string-array>
 
+    <string-array name="taoyuanCity">
+        <item>桃園區</item>
+        <item>中壢區</item>
+        <item>大溪區</item>
+        <item>楊梅區</item>
+        <item>蘆竹區</item>
+        <item>大園區</item>
+        <item>龜山區</item>
+        <item>八德區</item>
+        <item>龍潭區</item>
+        <item>平鎮區</item>
+        <item>新屋區</item>
+        <item>觀音區</item>
+        <item>復興區</item>
+    </string-array>
 
+    <string-array name="taichungCity">
+        <item>中區</item>
+        <item>東區</item>
+        <item>南區</item>
+        <item>西區</item>
+        <item>北區</item>
+        <item>西屯區</item>
+        <item>南屯區</item>
+        <item>北屯區</item>
+        <item>豐原區</item>
+        <item>東勢區</item>
+        <item>大甲區</item>
+        <item>清水區</item>
+        <item>沙鹿區</item>
+        <item>梧棲區</item>
+        <item>后里區</item>
+        <item>神岡區</item>
+        <item>潭子區</item>
+        <item>大雅區</item>
+        <item>新社區</item>
+        <item>石岡區</item>
+        <item>外埔區</item>
+        <item>大安區</item>
+        <item>烏日區</item>
+        <item>大肚區</item>
+        <item>龍井區</item>
+        <item>霧峰區</item>
+        <item>太平區</item>
+        <item>大里區</item>
+        <item>和平區</item>
+    </string-array>
 
+    <string-array name="tainanCity">
+        <item>新營區</item>
+        <item>鹽水區</item>
+        <item>白河區</item>
+        <item>柳營區</item>
+        <item>後壁區</item>
+        <item>東山區</item>
+        <item>麻豆區</item>
+        <item>下營區</item>
+        <item>六甲區</item>
+        <item>官田區</item>
+        <item>大內區</item>
+        <item>佳里區</item>
+        <item>學甲區</item>
+        <item>西港區</item>
+        <item>七股區</item>
+        <item>將軍區</item>
+        <item>北門區</item>
+        <item>新化區</item>
+        <item>善化區</item>
+        <item>新市區</item>
+        <item>安定區</item>
+        <item>山上區</item>
+        <item>玉井區</item>
+        <item>楠西區</item>
+        <item>南化區</item>
+        <item>左鎮區</item>
+        <item>仁德區</item>
+        <item>歸仁區</item>
+        <item>關廟區</item>
+        <item>龍崎區</item>
+        <item>永康區</item>
+        <item>東區</item>
+        <item>南區</item>
+        <item>北區</item>
+        <item>安南區</item>
+        <item>安平區</item>
+        <item>中西區</item>
+    </string-array>
 
 </resources>

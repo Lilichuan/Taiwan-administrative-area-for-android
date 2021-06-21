@@ -15,7 +15,6 @@
         <item>Beitou District</item>
     </string-array>
 
-
     <string-array name="new_taipei_city">
         <item>Banqiao District</item>
         <item>Sanchong District</item>
@@ -34,18 +33,106 @@
         <item>Wugu District</item>
         <item>Taishan District</item>
         <item>Linkou District</item>
-        <item>深坑區</item>
-        <item>石碇區</item>
-        <item>坪林區</item>
-        <item>三芝區</item>
-        <item>石門區</item>
-        <item>八里區</item>
-        <item>平溪區</item>
-        <item>雙溪區</item>
-        <item>貢寮區</item>
-        <item>金山區</item>
-        <item>萬里區</item>
-        <item>烏來區</item>
+        <item>Shenkeng District</item>
+        <item>Shiding District</item>
+        <item>Pinglin District</item>
+        <item>Sanzhi District</item>
+        <item>Shimen District</item>
+        <item>Bali District</item>
+        <item>Pingxi District</item>
+        <item>Shuangxi District</item>
+        <item>Gongliao District</item>
+        <item>Jinshan District</item>
+        <item>Wanli District</item>
+        <item>Wulai District</item>
+    </string-array>
+
+    <string-array name="taoyuanCity">
+        <item>Taoyuan District</item>
+        <item>Zhongli District</item>
+        <item>Daxi District</item>
+        <item>Yangmei District</item>
+        <item>Luzhu District</item>
+        <item>Dayuan District</item>
+        <item>Guishan District</item>
+        <item>Bade District</item>
+        <item>Longtan District</item>
+        <item>Pingzhen District</item>
+        <item>Xinwu District</item>
+        <item>Guanyin District</item>
+        <item>Fuxing District</item>
+    </string-array>
+
+    <string-array name="taichungCity">
+        <item>Central District</item>
+        <item>East District</item>
+        <item>South District</item>
+        <item>West District</item>
+        <item>North District</item>
+        <item>Xitun District</item>
+        <item>Nantun District</item>
+        <item>Beitun District</item>
+        <item>Fengyuan District</item>
+        <item>Dongshi District</item>
+        <item>Dajia District</item>
+        <item>Qingshui District</item>
+        <item>Shalu District</item>
+        <item>Wuqi District</item>
+        <item>Houli District</item>
+        <item>Shengang District</item>
+        <item>Tanzi District</item>
+        <item>Daya District</item>
+        <item>Xinshe District</item>
+        <item>Shigang District</item>
+        <item>Waipu District</item>
+        <item>Da\’an District</item>
+        <item>Wuri District</item>
+        <item>Dadu District</item>
+        <item>Longjing District</item>
+        <item>Wufeng District</item>
+        <item>Taiping District</item>
+        <item>Dali District</item>
+        <item>Heping District</item>
+    </string-array>
+
+    <string-array name="tainanCity">
+        <item>Xinying District</item>
+        <item>Yanshui District</item>
+        <item>Baihe District</item>
+        <item>Liuying District</item>
+        <item>Houbi District</item>
+        <item>Dongshan District</item>
+        <item>Madou District</item>
+        <item>Xiaying District</item>
+        <item>Liujia District</item>
+        <item>Guantian District</item>
+        <item>Danei District</item>
+        <item>Jiali District</item>
+        <item>Xuejia District</item>
+        <item>Xigang District</item>
+        <item>Qigu District</item>
+        <item>Jiangjun District</item>
+        <item>Beimen District</item>
+        <item>Xinhua District</item>
+        <item>Shanhua District</item>
+        <item>Xinshi District</item>
+        <item>Anding District</item>
+        <item>Shanshang District</item>
+        <item>Yujing District</item>
+        <item>Nanxi District</item>
+        <item>Nanhua District</item>
+        <item>Zuozhen District</item>
+        <item>Rende District</item>
+        <item>Guiren District</item>
+        <item>Guanmiao District</item>
+        <item>Longqi District</item>
+        <item>Yongkang District</item>
+        <item>East District</item>
+        <item>South District</item>
+        <item>North District</item>
+        <item>Annan District</item>
+        <item>Anping District</item>
+        <item>West Central District</item>
     </string-array>
 
 </resources>
