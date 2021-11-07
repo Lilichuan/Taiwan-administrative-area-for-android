@@ -2,14 +2,15 @@ package com.lililib.taiwanadministrativearea.lib;
 
 import androidx.annotation.NonNull;
 
+import java.util.List;
+
 abstract public class FirstClassArea {
 
     abstract public @NonNull
-    String getChineseName();
+    String getName();
 
-    abstract public @NonNull
-    String getEngName();
+    abstract List<County> getSubArea();
 
-
+    abstract boolean haveSubArea();
 
 }
