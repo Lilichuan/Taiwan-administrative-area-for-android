@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="taipei_city_post_code">
+        <item>100</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>116</item>
+        <item>108</item>
+        <item>110</item>
+        <item>111</item>
+        <item>112</item>
+        <item>114</item>
+        <item>115</item>
+        <item>116</item>
+    </integer-array>
+
+    <integer-array name="new_taipei_ty_post_code">
+        <item>207</item>
+        <item>208</item>
+        <item>220</item>
+        <item>221</item>
+        <item>222</item>
+        <item>223</item>
+        <item>224</item>
+        <item>226</item>
+        <item>227</item>
+        <item>228</item>
+        <item>231</item>
+        <item>232</item>
+        <item>233</item>
+        <item>234</item>
+        <item>235</item>
+        <item>236</item>
+        <item>237</item>
+        <item>238</item>
+        <item>239</item>
+        <item>241</item>
+        <item>242</item>
+        <item>243</item>
+        <item>244</item>
+        <item>247</item>
+        <item>248</item>
+        <item>249</item>
+        <item>251</item>
+        <item>252</item>
+        <item>253</item>
+    </integer-array>
+</resources>

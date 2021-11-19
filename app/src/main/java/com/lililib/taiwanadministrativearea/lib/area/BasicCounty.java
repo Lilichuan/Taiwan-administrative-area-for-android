@@ -10,17 +10,10 @@ import java.util.List;
 
 public class BasicCounty extends County {
 
-    private String name;
 
-    public BasicCounty(String string){
-        name = string;
-    }
-
-
-    @NonNull
-    @Override
-    public String getName() {
-        return name;
+    public BasicCounty(String string, int postCode){
+        setName(string);
+        setPostCode(postCode);
     }
 
     @Override
@@ -31,10 +24,5 @@ public class BasicCounty extends County {
     @Override
     public boolean haveSubArea() {
         return false;
-    }
-
-    @Override
-    public int getPostCode() {
-        return 0;
     }
 }

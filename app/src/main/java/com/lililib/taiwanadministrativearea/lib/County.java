@@ -12,8 +12,9 @@ public abstract class County {
 
     }
 
-    private String name;
-    private int postCode = -1;
+    protected String name;
+    protected int postCode = -1;
+    protected boolean haveSubArea = true;
 
     public @NonNull
     String getName(){
@@ -37,6 +38,8 @@ public abstract class County {
 
     abstract public List<County> getSubArea(@NonNull Context context);
 
-    abstract public boolean haveSubArea();
+    public boolean haveSubArea(){
+        return haveSubArea;
+    }
 
 }

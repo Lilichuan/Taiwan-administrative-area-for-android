@@ -12,36 +12,30 @@ import java.util.List;
 
 public class TaipeiCity extends County {
 
-    private String name;
-
     public TaipeiCity(Context context){
         super();
-        name = context.getString(R.string.taipei_city);
-    }
-
-    @NonNull
-    @Override
-    public String getName() {
-        return name;
+        setName(context.getString(R.string.taipei_city));
     }
 
     @Override
     public List<County> getSubArea(@NonNull Context context) {
         List<County> list = new ArrayList<>();
         String[] strlist = context.getResources().getStringArray(R.array.taipei_city_list);
-        for (String s : strlist){
-            list.add();
+        int[] postCodeArray = context.getResources().getIntArray(R.array.taipei_city_post_code);
+
+        for (int i = 0;i < strlist.length ;i++) {
+            list.add(new BasicCounty(strlist[i++], postCodeArray[i]));
         }
         return null;
     }
 
     @Override
-    public boolean haveSubArea() {
-        return false;
+    public int getPostCode() {
+        return super.getPostCode();
     }
 
     @Override
-    public int getPostCode() {
-        return 0;
+    public boolean haveSubArea() {
+        return true;
     }
 }
