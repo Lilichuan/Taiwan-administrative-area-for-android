@@ -15,7 +15,7 @@
     <string name="yunlin_county">Yunlin County</string>
     <string name="chiayi_county">Chiayi County</string>
     <string name="pingtung_county">Pingtung County</string>
-    <string name="taitungounty">Taitung County</string>
+    <string name="taitung_county">Taitung County</string>
     <string name="hualien_county">Hualien County</string>
     <string name="penghu_county">Penghu County</string>
     <string name="keelung_city">Keelung City</string>
@@ -71,7 +71,7 @@
         <item>Shimen District</item>
     </string-array>
 
-    <string-array name="taoyuanCity_list">
+    <string-array name="tauyuanCity_list">
         <item>Zhongli District</item>
         <item>Pingzhen District</item>
         <item>Longtan District</item>

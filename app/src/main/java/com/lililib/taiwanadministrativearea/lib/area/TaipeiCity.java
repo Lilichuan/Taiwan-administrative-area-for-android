@@ -19,14 +19,7 @@ public class TaipeiCity extends County {
 
     @Override
     public List<County> getSubArea(@NonNull Context context) {
-        List<County> list = new ArrayList<>();
-        String[] strlist = context.getResources().getStringArray(R.array.taipei_city_list);
-        int[] postCodeArray = context.getResources().getIntArray(R.array.taipei_city_post_code);
-
-        for (int i = 0;i < strlist.length ;i++) {
-            list.add(new BasicCounty(strlist[i++], postCodeArray[i]));
-        }
-        return null;
+        return getArray(context, R.array.taipei_city_list, R.array.taipei_city_post_code);
     }
 
     @Override

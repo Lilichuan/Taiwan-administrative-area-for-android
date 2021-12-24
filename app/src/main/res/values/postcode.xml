@@ -71,7 +71,7 @@
         <item>253</item>
     </integer-array>
 
-    <integer-array name="taoyuanCity_list_post_code">
+    <integer-array name="tauyuanCity_list_post_code">
         <item>320</item>
         <item>324</item>
         <item>325</item>
@@ -342,5 +342,121 @@
         <item>625</item>
     </integer-array>
 
+    <integer-array name="PingtungCounty_post_code">
+        <item>900</item>
+        <item>901</item>
+        <item>902</item>
+        <item>903</item>
+        <item>904</item>
+        <item>905</item>
+        <item>906</item>
+        <item>907</item>
+        <item>908</item>
+        <item>909</item>
+        <item>911</item>
+        <item>912</item>
+        <item>913</item>
+        <item>920</item>
+        <item>921</item>
+        <item>922</item>
+        <item>923</item>
+        <item>924</item>
+        <item>925</item>
+        <item>926</item>
+        <item>927</item>
+        <item>928</item>
+        <item>929</item>
+        <item>931</item>
+        <item>932</item>
+        <item>940</item>
+        <item>941</item>
+        <item>942</item>
+        <item>943</item>
+        <item>944</item>
+        <item>945</item>
+        <item>946</item>
+        <item>947</item>
+    </integer-array>
+
+    <integer-array name="TaitungCounty_post_code">
+        <item>950</item>
+        <item>951</item>
+        <item>952</item>
+        <item>953</item>
+        <item>954</item>
+        <item>955</item>
+        <item>956</item>
+        <item>957</item>
+        <item>958</item>
+        <item>959</item>
+        <item>961</item>
+        <item>962</item>
+        <item>963</item>
+        <item>964</item>
+        <item>965</item>
+        <item>966</item>
+    </integer-array>
+
+    <integer-array name="HualienCounty_post_code">
+        <item>970</item>
+        <item>971</item>
+        <item>972</item>
+        <item>973</item>
+        <item>974</item>
+        <item>975</item>
+        <item>976</item>
+        <item>977</item>
+        <item>978</item>
+        <item>979</item>
+        <item>981</item>
+        <item>982</item>
+        <item>983</item>
+    </integer-array>
+
+    <integer-array name="PenghuCounty_post_code">
+        <item>880</item>
+        <item>881</item>
+        <item>882</item>
+        <item>883</item>
+        <item>884</item>
+        <item>885</item>
+    </integer-array>
+
+    <integer-array name="KeelungCity_post_code">
+        <item>200</item>
+        <item>201</item>
+        <item>202</item>
+        <item>203</item>
+        <item>204</item>
+        <item>205</item>
+        <item>206</item>
+    </integer-array>
+
+    <integer-array name="HsinchuCity_post_code">
+        <item>300</item>
+        <item>300</item>
+        <item>300</item>
+    </integer-array>
+
+    <integer-array name="ChiayiCity_post_code">
+        <item>600</item>
+        <item>600</item>
+    </integer-array>
+
+    <integer-array name="LienchiangCounty_post_code">
+        <item>209</item>
+        <item>210</item>
+        <item>211</item>
+        <item>212</item>
+    </integer-array>
+
+    <integer-array name="KinmenCounty_post_code">
+        <item>890</item>
+        <item>891</item>
+        <item>892</item>
+        <item>893</item>
+        <item>894</item>
+        <item>896</item>
+    </integer-array>
 
 </resources>

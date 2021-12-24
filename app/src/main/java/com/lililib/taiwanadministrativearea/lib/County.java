@@ -2,8 +2,12 @@ package com.lililib.taiwanadministrativearea.lib;
 
 import android.content.Context;
 
+import androidx.annotation.ArrayRes;
 import androidx.annotation.NonNull;
 
+import com.lililib.taiwanadministrativearea.lib.area.BasicCounty;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class County {
@@ -30,6 +34,17 @@ public abstract class County {
             return;
         }
         this.postCode = postCode;
+    }
+
+    protected List<County> getArray(@NonNull Context context, @ArrayRes int str_array_res, @ArrayRes int int_array_res){
+        List<County> list = new ArrayList<>();
+        String[] strlist = context.getResources().getStringArray(str_array_res);
+        int[] postCodeArray = context.getResources().getIntArray(int_array_res);
+        assert strlist.length == postCodeArray.length;
+        for (int i = 0;i < strlist.length ;i++) {
+            list.add(new BasicCounty(strlist[i++], postCodeArray[i]));
+        }
+        return list;
     }
 
     public int getPostCode() {
