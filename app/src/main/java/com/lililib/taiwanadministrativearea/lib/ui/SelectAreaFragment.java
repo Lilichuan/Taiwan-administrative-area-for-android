@@ -2,17 +2,16 @@ package com.lililib.taiwanadministrativearea.lib.ui;
 
 import android.os.Bundle;
 
-import androidx.annotation.IntDef;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.lililib.taiwanadministrativearea.R;
+import com.lililib.taiwanadministrativearea.lib.TaiwanAreaManager;
 
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -22,16 +21,19 @@ import java.lang.annotation.RetentionPolicy;
 public class SelectAreaFragment extends Fragment {
 
     private static final String MODE = "param1";
-    private boolean mode = false;
+    private boolean isHorizon = false;
+    private TextView textView1, textView2;
+    private TaiwanAreaManager manager;
+
 
     public SelectAreaFragment() {
         // Requir empty public constructor
     }
 
-    public static SelectAreaFragment newInstance(boolean mode) {
+    public static SelectAreaFragment newInstance(boolean isHorizon) {
         SelectAreaFragment fragment = new SelectAreaFragment();
         Bundle args = new Bundle();
-        args.putBoolean(MODE, mode);
+        args.putBoolean(MODE, isHorizon);
         fragment.setArguments(args);
         return fragment;
     }
@@ -40,14 +42,30 @@ public class SelectAreaFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
-            mode = getArguments().getBoolean(MODE);
+            isHorizon = getArguments().getBoolean(MODE);
         }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_select_area, container, false);
+        int res = isHorizon ? R.layout.fragment_select_area_ii : R.layout.fragment_select_area;
+        View root = inflater.inflate(res, container, false);
+        textView1 = root.findViewById(R.id.first_level_input_textview);
+        textView2 = root.findViewById(R.id.second_level_input_textview);
+        manager = new TaiwanAreaManager(getContext());
+        return root;
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        manager.initTextView(textView1, textView2);
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        manager.onDestroy();
     }
 }
