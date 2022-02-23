@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="taipei_city">Taipei City</string>
+    <string name="new_taipei_city">New Taipei City</string>
+    <string name="tauyuan_city">Tauyuan City</string>
+    <string name="taichung_city">Taichung City</string>
+    <string name="tainan_city">Tainan City</string>
+    <string name="kaohsiung_city">Kauhsiung City</string>
+    <string name="yilan_county">Yilan County</string>
+    <string name="hsinchu_county">Hsinchu County</string>
+    <string name="miaoli_county">Miaoli County</string>
+    <string name="changhua_county">Changhua County</string>
+    <string name="nantou_county">Nantou County</string>
+    <string name="yunlin_county">Yunlin County</string>
+    <string name="chiayi_county">Chiayi County</string>
+    <string name="pingtung_county">Pingtung County</string>
+    <string name="taitung_county">Taitung County</string>
+    <string name="hualien_county">Hualien County</string>
+    <string name="penghu_county">Penghu County</string>
+    <string name="keelung_city">Keelung City</string>
+    <string name="hsinchu_city">Hsinchu City</string>
+    <string name="chiayi_city">Chiayi City</string>
+    <string name="lienchiang_county">Lienchiang County</string>
+    <string name="kinmen_county">Kinmen County</string>
+
+    <string-array name="taipei_city_list">
+        <item>Zhongzheng District</item>
+        <item>Datong District</item>
+        <item>Zhongshan District</item>
+        <item>Songshan District</item>
+        <item>Da\’an District</item>
+        <item>Wanhua District</item>
+        <item>Xinyi District</item>
+        <item>Shilin District</item>
+        <item>Beitou District</item>
+        <item>Neihu District</item>
+        <item>Nangang District</item>
+        <item>Wenshan District</item>
+    </string-array>
+
+    <string-array name="new_taipei_city_list">
+        <item>Wanli District</item>
+        <item>Jinshan District</item>
+        <item>Banqiao District</item>
+        <item>Xizhi District</item>
+        <item>Shenkeng District</item>
+        <item>Shiding District</item>
+        <item>Ruifang District</item>
+        <item>Pingxi District</item>
+        <item>Shuangxi District</item>
+        <item>Gongliao District</item>
+        <item>Xindian District</item>
+        <item>Pinglin District</item>
+        <item>Wulai District</item>
+        <item>Yonghe District</item>
+        <item>Zhonghe District</item>
+        <item>Tucheng District</item>
+        <item>Sanxia District</item>
+        <item>Shulin District</item>
+        <item>Yingge District</item>
+        <item>Sanchong District</item>
+        <item>Xinzhuang District</item>
+        <item>Taishan District</item>
+        <item>Linkou District</item>
+        <item>Luzhou District</item>
+        <item>Wugu District</item>
+        <item>Bali District</item>
+        <item>Tamsui District</item>
+        <item>Sanzhi District</item>
+        <item>Shimen District</item>
+    </string-array>
+
+    <string-array name="tauyuanCity_list">
+        <item>Zhongli District</item>
+        <item>Pingzhen District</item>
+        <item>Longtan District</item>
+        <item>Yangmei District</item>
+        <item>Xinwu District</item>
+        <item>Guanyin District</item>
+        <item>Taoyuan District</item>
+        <item>Guishan District</item>
+        <item>Bade District</item>
+        <item>Daxi District</item>
+        <item>Fuxing District</item>
+        <item>Dayuan District</item>
+        <item>Luzhu District</item>
+    </string-array>
+
+    <string-array name="taichungCity_list">
+        <item>Central District</item>
+        <item>East District</item>
+        <item>South District</item>
+        <item>West District</item>
+        <item>North District</item>
+        <item>Beitun District</item>
+        <item>Xitun District</item>
+        <item>Nantun District</item>
+        <item>Taiping District</item>
+        <item>Dali District</item>
+        <item>Wufeng District</item>
+        <item>Wuri District</item>
+        <item>Fengyuan District</item>
+        <item>Houli District</item>
+        <item>Shigang District</item>
+        <item>Dongshi District</item>
+        <item>Heping District</item>
+        <item>Xinshe District</item>
+        <item>Tanzi District</item>
+        <item>Daya District</item>
+        <item>Shengang District</item>
+        <item>Dadu District</item>
+        <item>Shalu District</item>
+        <item>Longjing District</item>
+        <item>Wuqi District</item>
+        <item>Qingshui District</item>
+        <item>Dajia District</item>
+        <item>Waipu District</item>
+        <item>Da\’an District</item>
+    </string-array>
+
+    <string-array name="tainanCity_list">
+        <item>West Central District</item>
+        <item>East District</item>
+        <item>South District</item>
+        <item>North District</item>
+        <item>Anping District</item>
+        <item>Annan District</item>
+        <item>Yongkang District</item>
+        <item>Guiren District</item>
+        <item>Xinhua District</item>
+        <item>Zuozhen District</item>
+        <item>Yujing District</item>
+        <item>Nanxi District</item>
+        <item>Nanhua District</item>
+        <item>Rende District</item>
+        <item>Guanmiao District</item>
+        <item>Longqi District</item>
+        <item>Guantian District</item>
+        <item>Madou District</item>
+        <item>Jiali District</item>
+        <item>Xigang District</item>
+        <item>Qigu District</item>
+        <item>Jiangjun District</item>
+        <item>Xuejia District</item>
+        <item>Beimen District</item>
+        <item>Xinying District</item>
+        <item>Houbi District</item>
+        <item>Baihe District</item>
+        <item>Dongshan District</item>
+        <item>Liujia District</item>
+        <item>Xiaying District</item>
+        <item>Liuying District</item>
+        <item>Yanshui District</item>
+        <item>Shanhua District</item>
+        <item>Danei District</item>
+        <item>Shanshang District</item>
+        <item>Xinshi District</item>
+        <item>Anding District</item>
+    </string-array>
+
+    <string-array name="kaohsiungCity_list">
+        <item>Xinxing District</item>
+        <item>Qianjin District</item>
+        <item>Lingya District</item>
+        <item>Yancheng District</item>
+        <item>Gushan District</item>
+        <item>Qijin District</item>
+        <item>Qianzhen District</item>
+        <item>Sanmin District</item>
+        <item>Nanzi District</item>
+        <item>Xiaogang District</item>
+        <item>Zuoying District</item>
+        <item>Renwu District</item>
+        <item>Dashe District</item>
+        <item>Gangshan District</item>
+        <item>Luzhu District</item>
+        <item>Alian District</item>
+        <item>Tianliao District</item>
+        <item>Yanchao District</item>
+        <item>Qiaotou District</item>
+        <item>Ziguan District</item>
+        <item>Mituo District</item>
+        <item>Yong\’an District</item>
+        <item>Hunei District</item>
+        <item>Fengshan District</item>
+        <item>Daliao District</item>
+        <item>Linyuan District</item>
+        <item>Niaosong District</item>
+        <item>Dashu District</item>
+        <item>Qishan District</item>
+        <item>Meinong District</item>
+        <item>Liugui District</item>
+        <item>Neimen District</item>
+        <item>Shanlin District</item>
+        <item>Jiaxian District</item>
+        <item>Taoyuan District</item>
+        <item>Namaxia District</item>
+        <item>Maolin District</item>
+        <item>Qieding District</item>
+    </string-array>
+
+    <string-array name="yilanCity_list">
+        <item>Yilan City</item>
+        <item>Toucheng Township</item>
+        <item>Jiaoxi Township</item>
+        <item>Zhuangwei Township</item>
+        <item>Yuanshan Township</item>
+        <item>Luodong Township</item>
+        <item>Sanxing Township</item>
+        <item>Datong Township</item>
+        <item>Wujie Township</item>
+        <item>Dongshan Township</item>
+        <item>Su’ao Township</item>
+        <item>Nan\’ao Township</item>
+    </string-array>
+
+    <string-array name="hsinchuCounty_list">
+        <item>Zhubei City</item>
+        <item>Hukou Township</item>
+        <item>Xinfeng Township</item>
+        <item>Xinpu Township</item>
+        <item>Guanxi Township</item>
+        <item>Qionglin Township</item>
+        <item>Baoshan Township</item>
+        <item>Zhudong Township</item>
+        <item>Wufeng Township</item>
+        <item>Hengshan Township</item>
+        <item>Jianshi Township</item>
+        <item>Beipu Township</item>
+        <item>Emei Township</item>
+    </string-array>
+
+    <string-array name="miaoliCounty_list">
+        <item>Zhunan Township</item>
+        <item>Toufen Township</item>
+        <item>Sanwan Township</item>
+        <item>Nanzhuang Township</item>
+        <item>Shitan Township</item>
+        <item>Houlong Township</item>
+        <item>Tongxiao Township</item>
+        <item>Yuanli Township</item>
+        <item>Miaoli City</item>
+        <item>Zaoqiao Township</item>
+        <item>Touwu Township</item>
+        <item>Gongguan Township</item>
+        <item>Dahu Township</item>
+        <item>Tai\’an Township</item>
+        <item>Tongluo Township</item>
+        <item>Sanyi Township</item>
+        <item>Xihu Township</item>
+        <item>Zhuolan Township</item>
+    </string-array>
+
+    <string-array name="changhuaCounty_list">
+        <item>Changhua City</item>
+        <item>Fenyuan Township</item>
+        <item>Huatan Township</item>
+        <item>Xiushui Township</item>
+        <item>Lukang Township</item>
+        <item>Fuxing Township</item>
+        <item>Xianxi Township</item>
+        <item>Hemei Township</item>
+        <item>Shengang Township</item>
+        <item>Yuanlin Township</item>
+        <item>Shetou Township</item>
+        <item>Yongjing Township</item>
+        <item>Puxin Township</item>
+        <item>Xihu Township</item>
+        <item>Dacun Township</item>
+        <item>Puyan Township</item>
+        <item>Tianzhong Township</item>
+        <item>Beidou Township</item>
+        <item>Tianwei Township</item>
+        <item>Pitou Township</item>
+        <item>Xizhou Township</item>
+        <item>Zhutang Township</item>
+        <item>Erlin Township</item>
+        <item>Dacheng Township</item>
+        <item>Fangyuan Township</item>
+        <item>Ershui Township</item>
+    </string-array>
+
+    <string-array name="NantouCounty_list">
+        <item>Nantou City</item>
+        <item>Zhongliao Township</item>
+        <item>Caotun Township</item>
+        <item>Guoxing Township</item>
+        <item>Puli Township</item>
+        <item>Ren\’ai Township</item>
+        <item>Mingjian Township</item>
+        <item>Jiji Township</item>
+        <item>Shuili Township</item>
+        <item>Yuchi Township</item>
+        <item>Xinyi Township</item>
+        <item>Zhushan Township</item>
+        <item>Lugu Township</item>
+    </string-array>
+
+    <string-array name="YunlinCounty_list">
+        <item>Dounan Township</item>
+        <item>Dapi Township</item>
+        <item>Huwei Township</item>
+        <item>Tuku Township</item>
+        <item>Baozhong Township</item>
+        <item>Dongshi Township</item>
+        <item>Taixi Township</item>
+        <item>Lunbei Township</item>
+        <item>Mailiao Township</item>
+        <item>Douliu City</item>
+        <item>Linnei Township</item>
+        <item>Gukeng Township</item>
+        <item>Citong Township</item>
+        <item>Xiluo Township</item>
+        <item>Erlun Township</item>
+        <item>Beigang Township</item>
+        <item>Shuilin Township</item>
+        <item>Kouhu Township</item>
+        <item>Sihu Township</item>
+        <item>Yuanchang Township</item>
+    </string-array>
+
+    <string-array name="ChiayiCounty_list">
+        <item>Chiayi City</item>
+        <item>Fanlu Township</item>
+        <item>Meishan Township</item>
+        <item>Zhuqi Township</item>
+        <item>Alishan Township</item>
+        <item>Zhongpu Township</item>
+        <item>Dapu Township</item>
+        <item>Shuishang Township</item>
+        <item>Lucao Township</item>
+        <item>Taibao City</item>
+        <item>Puzi City</item>
+        <item>Dongshi Township</item>
+        <item>Liujiao Township</item>
+        <item>Xingang Township</item>
+        <item>Minxiong Township</item>
+        <item>Dalin Township</item>
+        <item>Xikou Township</item>
+        <item>Yizhu Township</item>
+        <item>Budai Township</item>
+    </string-array>
+
+    <string-array name="PingtungCounty_list">
+        <item>Pingtung City</item>
+        <item>Sandimen Township</item>
+        <item>Wutai Township</item>
+        <item>Majia Township</item>
+        <item>Jiuru Township</item>
+        <item>Ligang Township</item>
+        <item>Gaoshu Township</item>
+        <item>Yanpu Township</item>
+        <item>Changzhi Township</item>
+        <item>Linluo Township</item>
+        <item>Zhutian Township</item>
+        <item>Neipu Township</item>
+        <item>Wandan Township</item>
+        <item>Chaozhou Township</item>
+        <item>Taiwu Township</item>
+        <item>Laiyi Township</item>
+        <item>Wanluan Township</item>
+        <item>Kanding Township</item>
+        <item>Xinpi Township</item>
+        <item>Nanzhou Township</item>
+        <item>Linbian Township</item>
+        <item>Donggang Township</item>
+        <item>Liuqiu Township</item>
+        <item>Jiadong Township</item>
+        <item>Xinyuan Township</item>
+        <item>Fangliao Township</item>
+        <item>Fangshan Township</item>
+        <item>Chunri Township</item>
+        <item>Shizi Township</item>
+        <item>Checheng Township</item>
+        <item>Mudan Township</item>
+        <item>Hengchun Township</item>
+        <item>Manzhou Township</item>
+    </string-array>
+
+    <string-array name="TaitungCounty_list">
+        <item>Taitung City</item>
+        <item>Lüdao Township</item>
+        <item>Lanyu Township</item>
+        <item>Yanping Township</item>
+        <item>Beinan Township</item>
+        <item>Luye Township</item>
+        <item>Guanshan Township</item>
+        <item>Haiduan Township</item>
+        <item>Chishang Township</item>
+        <item>Donghe Township</item>
+        <item>Chenggong Township</item>
+        <item>Changbin Township</item>
+        <item>Taimali Township</item>
+        <item>Jinfeng Township</item>
+        <item>Dawu Township</item>
+        <item>Daren Township</item>
+    </string-array>
+
+    <string-array name="HualienCounty_list">
+        <item>Hualien City</item>
+        <item>Xincheng Township</item>
+        <item>Xiulin Township</item>
+        <item>Ji\’an Township</item>
+        <item>Shoufeng Township</item>
+        <item>Fenglin Township</item>
+        <item>Guangfu Township</item>
+        <item>Fengbin Township</item>
+        <item>Ruisui Township</item>
+        <item>Wanrong Township</item>
+        <item>Yuli Township</item>
+        <item>Zhuoxi Township</item>
+        <item>Fuli Township</item>
+    </string-array>
+
+    <string-array name="PenghuCounty_list">
+        <item>Magong City</item>
+        <item>Xiyu Township</item>
+        <item>Wang\’an Township</item>
+        <item>Qimei Township</item>
+        <item>Baisha Township</item>
+        <item>Huxi Township</item>
+    </string-array>
+
+    <string-array name="KeelungCity_list">
+        <item>Ren\’ai District</item>
+        <item>Xinyi District</item>
+        <item>Zhongzheng District</item>
+        <item>Zhongshan District</item>
+        <item>Anle District</item>
+        <item>Nuannuan District</item>
+        <item>Qidu District</item>
+    </string-array>
+
+    <string-array name="HsinchuCity_list">
+        <item>East District</item>
+        <item>North District</item>
+        <item>Xiangshan District</item>
+    </string-array>
+
+    <string-array name="ChiayiCity_list">
+        <item>East District</item>
+        <item>West District</item>
+    </string-array>
+
+    <string-array name="LienchiangCounty_list">
+        <item>Nangan Township</item>
+        <item>Beigan Township</item>
+        <item>Juguang Township</item>
+        <item>Dongyin Township</item>
+    </string-array>
+
+    <string-array name="KinmenCounty_list">
+        <item>Jinsha Township</item>
+        <item>Jinhu Township</item>
+        <item>Jinning Township</item>
+        <item>Jincheng Township</item>
+        <item>Lieyu Township</item>
+        <item>Wuqiu Township</item>
+    </string-array>
+
+</resources>

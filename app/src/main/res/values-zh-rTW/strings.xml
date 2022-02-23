@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taiwan Administrative Area</string>
+    <string name="pls_select_city">請選擇縣市</string>
+</resources>
