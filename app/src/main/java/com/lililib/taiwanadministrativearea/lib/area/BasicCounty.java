@@ -8,6 +8,7 @@ import com.lililib.taiwanadministrativearea.lib.County;
 
 import java.util.List;
 
+//用來紀錄一個區域名稱的的基本類別
 public class BasicCounty extends County {
 
 
