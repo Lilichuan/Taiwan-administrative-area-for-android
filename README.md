@@ -29,5 +29,6 @@
 
 另外選擇完畢之後
 可用以下兩種function取出資訊：
+
 	String str = manager.getUserSelectLocation();
 	int postNumber = manager.getPostNumber();
