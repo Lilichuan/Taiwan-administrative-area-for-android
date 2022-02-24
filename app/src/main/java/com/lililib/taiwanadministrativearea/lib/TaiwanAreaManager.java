@@ -13,7 +13,7 @@ import com.lililib.taiwanadministrativearea.lib.ui.OnAreaSelectedListener;
 public class TaiwanAreaManager {
 
     private TextView textView1, textView2;
-    private County selectCounty;
+    private County selectCounty, selectCounty2;
     private Context context;
 
     public TaiwanAreaManager(Context context){
@@ -62,6 +62,7 @@ public class TaiwanAreaManager {
             textView2.setClickable(true);
             textView2.setText(R.string.pls_select_city);
             selectCounty = county;
+            selectCounty2 = null;
         }
     }
 
@@ -70,9 +71,26 @@ public class TaiwanAreaManager {
         public void onSelect(County county) {
             textView2.setText(county.getName());
             textView2.setClickable(true);
+            selectCounty2 = county;
         }
     }
 
+    /*
+    * return user's selection.
+    * return "" if user is not select correctly.
+    * */
+    public String getUserSelectLocation(){
+        if(selectCounty == null || selectCounty2 == null){
+            return "";
+        }
 
+        boolean isEng = context.getResources().getBoolean(R.bool.is_english);
+        String split = isEng ? " ,": " ";
+        return selectCounty.getName() + split + selectCounty2.getName();
+    }
+
+    public int getPostNumber(){
+        return selectCounty2 == null ? -1 : selectCounty2.postCode;
+    }
 
 }

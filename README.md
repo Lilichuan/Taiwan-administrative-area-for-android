@@ -7,7 +7,7 @@
 
 把這個project編譯起來，會產生可讓其他專案可匯入的aar檔案。
 
-用法一：
+用法：
 1.在自己的專案之中拉出兩個TextView。
 第一個用來顯示縣市層級，第二個顯示鄉鎮等級。
 2.建立TaiwanAreaManager物件，範例如下：
@@ -27,8 +27,8 @@
 		manager.onDestroy();
 	}
 
-用法二：
-直接使用 SelectAreaFragment 物件。
-SelectAreaFragment 物件已經把上述用法一的UI給包含進去了。
+另外選擇完畢之後
+可用以下兩種function取出資訊：
+String str = manager.getUserSelectLocation();
+int postNumber = manager.getPostNumber();
 
-	SelectAreaFragment fragment = SelectAreaFragment.newInstance(true);

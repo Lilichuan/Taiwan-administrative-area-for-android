@@ -459,4 +459,6 @@
         <item>Wuqiu Township</item>
     </string-array>
 
+    <bool name="is_english">true</bool>
+
 </resources>

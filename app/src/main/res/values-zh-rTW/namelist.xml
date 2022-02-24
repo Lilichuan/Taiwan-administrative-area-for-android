@@ -459,4 +459,6 @@
         <item>烏坵鄉</item>
     </string-array>
 
+    <bool name="is_english">false</bool>
+
 </resources>
